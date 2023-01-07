@@ -117,6 +117,48 @@ article p{
 .call_now>button:hover{
     background-color:#fff;
 }
+/*Our Team Section Style*/
+.our-team{
+    text-align: center;
+    margin: 120px 0;
+}
+.our-team h1{
+    font-size: 40px;
+}
+.our-team>p{
+    padding: 10px 350px;
+    font-size: 16px;
+}
+.team-item-container{
+    display: flex;
+    margin: 70px 200px;
+    gap:55px;
+    color:#fff;
+}
+.team-item{
+    background-color: #555;
+    padding: 50px;
+    border-radius: 10px;
+}
+.team-item>img{
+width: 65%;
+border-radius: 50%;
+}
+.team-item>h2{
+    font-weight: 600;
+    color:darkgoldenrod;
+    margin-top: 35px;
+    margin-bottom: 5px;
+}
+.team-item>h5{
+    font-size: 18px;
+}
+.social-icon{
+    margin-top: 20px;
+}
+.social-icon>img{
+    width: 15%;
+}
 /*Footer Section Style*/
 footer{
     background-color: #151414;
