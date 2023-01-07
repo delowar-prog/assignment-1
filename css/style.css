@@ -20,7 +20,7 @@ header{
 .header-content{
   text-align: right;   
   width: 40%;
-  margin-left: 65%;
+  margin-left: 60%;
 }
 .header-content>h1 {
     font-size: 60px;
@@ -63,4 +63,108 @@ header{
     line-height: 30px;
     margin-left: 23px;
     list-style-image: url('../images/icons/download.png');
+}
+/*Plans Section*/
+.my_plans h1{
+    text-align: center;
+    font-size: 40px;
+}
+.item-container{
+    display: flex;
+    margin: 50px 130px;
+    justify-content: space-around;
+}
+article{
+    text-align: center;
+}
+article h2{
+    margin: 20px 0 10px 0;
+    font-size: 30px;
+}
+article p{
+    font-size: 22px;
+    font-weight: 600;
+}
+/*Call now Section Style*/
+.call_now{
+    width: 66%;
+    margin: 130px auto;
+    padding: 60px 70px;
+    background-image: linear-gradient(to right, darkgreen, transparent),
+    url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.call_now>h1{
+    font-size: 50px;
+    color:#fff;
+    margin-right: 50%;
+}
+.call_now>button{
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: 500;
+    color:darkgreen;
+    background-color:#999;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.call_now>button:hover{
+    background-color:#fff;
+}
+/*Footer Section Style*/
+footer{
+    background-color: #151414;
+    color:#fff;
+    padding: 8% 12%;
+}
+.footer-content-container{
+    display: flex;
+    gap: 300px;
+}
+.footer-content-container article{
+    text-align: left;
+}
+.footer-content-container>article>h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.footer-content-container>article>p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.footer-content-container>article>img{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.footer-content-container>article>h2{
+   margin-bottom: 40px;
+}
+input[type="text"]{
+    padding: 20px 20px;
+    width: 250px;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.footer-content-container>article>button{
+    padding: 20px 40px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color:#999;
+    font-weight: 500;
+    color:darkgreen;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.footer-content-container>article>button:hover{
+    background-color:#fff;
 }
